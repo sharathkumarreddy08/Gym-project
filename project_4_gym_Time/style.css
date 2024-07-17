@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.img{
+    width: 100%;
+}
+body{
+    background-color: #212121;
+    color: white;
+}
+nav{
+    background-color:white;
+}
+.gym{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width:300px){
+nav img{
+   height: 7vh;
+   width: auto;
+   margin-right: 1rem;
+}
+nav{
+    height: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0;
+}
+.gym h1{
+    color: blue;
+}
+.hero .one h4,p{
+    padding: 1rem;
+    text-align: center;
+}
+.one p{
+    padding: 1rem;
+}
+.one img{
+    margin-left: 4rem;
+}
+.two{
+    
+    background-color: white;
+    color: #212121;
+    width: 80%;
+    margin: 4vh auto;
+    border-radius: 12px;
+    padding: 1.5rem;
+  
+}
+.two label{
+    color: #212121;
+    font-size: 1.2rem;
+}
+.two input[type="text"]{
+   border: none;
+   padding: 0.8rem;
+   outline: none;
+   border-bottom: 1px solid #212121;
+   font-size: 1.5rem;
+   width: 90%;
+}
+.two input[type="radio"], input[type="checkbox"]{
+    margin-right: 1rem;
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+    
+}
+.checkbox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.button{
+   background-color: #212121;
+   font-weight: bold;
+   border: none;
+   outline: none;
+   color: white;
+   padding: 0.9rem;
+   width: 95%;
+   border-radius: 12px;
+}
+.Equipment h2{
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cards img{
+    height: 200px;
+    width: 150px;
+}
+.card{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 15px;
+    padding: 0.2rem;
+}
+.bag h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+.bag img{
+    height: 190px;
+    width: 70%;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.membership h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+.membership img{
+   height: 190px;
+   width: 70%;
+   margin-left: 3rem;
+   margin-bottom: 2rem;
+}
+  
+}
+@media (min-width:700px){
+   .hero .one h4,p{
+        font-size:1.6rem;
+    }
+    .one img{
+        width: 90%;
+    }
+  .Equipment{
+    font-size: 1.6rem;
+  }
+  .cards{
+    margin: 2.5rem;
+  }
+  .segment{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .segment img{
+    height: 300px;
+    width: 95%;
+    margin:1rem;
+  }
+  
+}
+@media (min-width:900px){
+    nav{
+        justify-content: left;
+        padding: 1rem;
+    }
+    .hero .one h4, p{
+     display: none;
+    }
+    .hero{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .one img{
+        padding:2rem;
+        width:100%;
+        height: 310px;
+    }
+    .two{
+        width: 40%;
+        padding: 1rem;
+    } 
+    .two label{
+        font-size: 1rem;
+    }
+    .two input[type="text"]{
+        font-size: 1rem;
+    }
+    .button{
+        margin: 1.5rem;
+    }
+    .Equipment h2{
+        font-size: 1.6rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }  
+    .segment img{
+        margin:3rem;
+        width: 90%;
+    } 
+
+
+}
+
+
+
+
